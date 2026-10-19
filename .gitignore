@@ -1,0 +1,20 @@
+# 编译产物
+*.o
+*.d
+edge-vision
+
+# 演示视频（体积大，不入库；录制后单独说明）
+demo/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+
+# 本地性能数据 dump（按需入库，默认忽略）
+*.perf.log
